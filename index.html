@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,7 +82,7 @@
 
     <div class="faq">
         <h2>frequently asked questions</h2>
-           <ul class="accordian">
+           <!-- <ul class="accordian">
             <li>
                 <input type="radio" name="accordian" id="first">
                 <label for="first">What is Netflix?</label>
@@ -99,7 +99,7 @@
                 <input type="radio" name="accordian" id="fourth">
                 <label for="fourth">How do i cancel?</label>
             </li>
-        </ul> 
+        </ul>  -->
          <div class="questions">
         <h3>What is Netflix? <ion-icon name="add-outline"></ion-icon>
         </h3>
@@ -162,84 +162,5 @@
  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
  
 </body>
-</html>!-->
+</html>!
 
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      background: linear-gradient(45deg, yellow ,orange,red,yellow);
-      font-family: Arial, sans-serif;
-    }
-
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      text-align: center;
-      background-color:seagreen;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    h2 {
-      color: #333;
-      margin-bottom: 20px;
-    }
-
-    input[type="password"] {
-      padding: 10px;
-      width: 100%;
-      margin-bottom: 20px;
-      border: none;
-      border-bottom: 2px solid #999;
-      border-radius: 5px;
-      font-size: 16px;
-      outline: none;
-      transition: border-color 0.3s ease;
-    }
-
-    input[type="password"]:focus {
-      border-color: #3498db;
-    }
-
-    .monkey-container {
-      position: relative;
-      width: 100px;
-      height: 100px;
-      margin: 0 auto;
-      margin-top: 20px;
-    }
-
-    #monkeyEyes {
-      width: 100px;
-      height: 100px;
-      transition: 0.3s;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h2>Password Field</h2>
-    <input type="password" id="passwordField" placeholder="Enter your password">
-    <div class="monkey-container">
-      <img id="monkeyEyes" src="https://example.com/monkey_eyes_open.png
-      " alt="Monkey Eyes">
-    </div>
-  </div>
-
-  <script>
-    const passwordField = document.getElementById("passwordField");
-    const monkeyEyes = document.getElementById("monkeyEyes");
-
-    passwordField.addEventListener("focus", () => {
-      monkeyEyes.src = "https://example.com/monkey_eyes_closed.png";
-    });
-
-    passwordField.addEventListener("blur", () => {
-      monkeyEyes.src = "https://example.com/monkey_eyes_open.png";
-    });
-  </script>
-</body>
-</html>
